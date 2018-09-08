@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBEA3376212D9EB1006D99D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEA3375212D9EB1006D99D1 /* AppDelegate.m */; };
+		DBEA3379212D9EB1006D99D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEA3378212D9EB1006D99D1 /* ViewController.m */; };
+		DBEA337C212D9EB1006D99D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEA337A212D9EB1006D99D1 /* Main.storyboard */; };
+		DBEA337E212D9EB5006D99D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEA337D212D9EB5006D99D1 /* Assets.xcassets */; };
+		DBEA3381212D9EB5006D99D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEA337F212D9EB5006D99D1 /* LaunchScreen.storyboard */; };
+		DBEA3384212D9EB5006D99D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEA3383212D9EB5006D99D1 /* main.m */; };
+		DBEA3392212DA8CE006D99D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEA3391212DA8CE006D99D1 /* AppDelegate.m */; };
+		DBEA3398212DA8CE006D99D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEA3396212DA8CE006D99D1 /* Main.storyboard */; };
+		DBEA339A212DA8D2006D99D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEA3399212DA8D2006D99D1 /* Assets.xcassets */; };
+		DBEA339D212DA8D2006D99D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEA339C212DA8D2006D99D1 /* main.m */; };
+		DBEA33A1212DA90F006D99D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEA3378212D9EB1006D99D1 /* ViewController.m */; };
+		DBEA33A9212DAA24006D99D1 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEA33A8212DAA24006D99D1 /* TVServices.framework */; };
+		DBEA33AD212DAA24006D99D1 /* ServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEA33AC212DAA24006D99D1 /* ServiceProvider.m */; };
+		DBEA33B1212DAA24006D99D1 /* Obj-ClockTopShelf.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBEA33A6212DAA24006D99D1 /* Obj-ClockTopShelf.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBEA33AF212DAA24006D99D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBEA3369212D9EB1006D99D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBEA33A5212DAA23006D99D1;
+			remoteInfo = "Obj-ClockTopShelf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBEA33B5212DAA24006D99D1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DBEA33B1212DAA24006D99D1 /* Obj-ClockTopShelf.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DBEA3371212D9EB1006D99D1 /* Obj-Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Obj-Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEA3374212D9EB1006D99D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBEA3375212D9EB1006D99D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBEA3377212D9EB1006D99D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBEA3378212D9EB1006D99D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBEA337B212D9EB1006D99D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBEA337D212D9EB5006D99D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBEA3380212D9EB5006D99D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBEA3382212D9EB5006D99D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEA3383212D9EB5006D99D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBEA338E212DA8CE006D99D1 /* Obj-ClockTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Obj-ClockTV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEA3390212DA8CE006D99D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBEA3391212DA8CE006D99D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBEA3397212DA8CE006D99D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBEA3399212DA8D2006D99D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBEA339B212DA8D2006D99D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEA339C212DA8D2006D99D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBEA33A6212DAA24006D99D1 /* Obj-ClockTopShelf.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Obj-ClockTopShelf.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEA33A8212DAA24006D99D1 /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = Library/Frameworks/TVServices.framework; sourceTree = DEVELOPER_DIR; };
+		DBEA33AB212DAA24006D99D1 /* ServiceProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceProvider.h; sourceTree = "<group>"; };
+		DBEA33AC212DAA24006D99D1 /* ServiceProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceProvider.m; sourceTree = "<group>"; };
+		DBEA33AE212DAA24006D99D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBEA336E212D9EB1006D99D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEA338B212DA8CE006D99D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEA33A3212DAA23006D99D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEA33A9212DAA24006D99D1 /* TVServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBEA3368212D9EB1006D99D1 = {
+			isa = PBXGroup;
+			children = (
+				DBEA3373212D9EB1006D99D1 /* Obj-Clock */,
+				DBEA338F212DA8CE006D99D1 /* Obj-ClockTV */,
+				DBEA33AA212DAA24006D99D1 /* Obj-ClockTopShelf */,
+				DBEA33A7212DAA24006D99D1 /* Frameworks */,
+				DBEA3372212D9EB1006D99D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBEA3372212D9EB1006D99D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBEA3371212D9EB1006D99D1 /* Obj-Clock.app */,
+				DBEA338E212DA8CE006D99D1 /* Obj-ClockTV.app */,
+				DBEA33A6212DAA24006D99D1 /* Obj-ClockTopShelf.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBEA3373212D9EB1006D99D1 /* Obj-Clock */ = {
+			isa = PBXGroup;
+			children = (
+				DBEA3374212D9EB1006D99D1 /* AppDelegate.h */,
+				DBEA3375212D9EB1006D99D1 /* AppDelegate.m */,
+				DBEA3377212D9EB1006D99D1 /* ViewController.h */,
+				DBEA3378212D9EB1006D99D1 /* ViewController.m */,
+				DBEA337A212D9EB1006D99D1 /* Main.storyboard */,
+				DBEA337D212D9EB5006D99D1 /* Assets.xcassets */,
+				DBEA337F212D9EB5006D99D1 /* LaunchScreen.storyboard */,
+				DBEA3382212D9EB5006D99D1 /* Info.plist */,
+				DBEA3383212D9EB5006D99D1 /* main.m */,
+			);
+			path = "Obj-Clock";
+			sourceTree = "<group>";
+		};
+		DBEA338F212DA8CE006D99D1 /* Obj-ClockTV */ = {
+			isa = PBXGroup;
+			children = (
+				DBEA3390212DA8CE006D99D1 /* AppDelegate.h */,
+				DBEA3391212DA8CE006D99D1 /* AppDelegate.m */,
+				DBEA3396212DA8CE006D99D1 /* Main.storyboard */,
+				DBEA3399212DA8D2006D99D1 /* Assets.xcassets */,
+				DBEA339B212DA8D2006D99D1 /* Info.plist */,
+				DBEA339C212DA8D2006D99D1 /* main.m */,
+			);
+			path = "Obj-ClockTV";
+			sourceTree = "<group>";
+		};
+		DBEA33A7212DAA24006D99D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBEA33A8212DAA24006D99D1 /* TVServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBEA33AA212DAA24006D99D1 /* Obj-ClockTopShelf */ = {
+			isa = PBXGroup;
+			children = (
+				DBEA33AB212DAA24006D99D1 /* ServiceProvider.h */,
+				DBEA33AC212DAA24006D99D1 /* ServiceProvider.m */,
+				DBEA33AE212DAA24006D99D1 /* Info.plist */,
+			);
+			path = "Obj-ClockTopShelf";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBEA3370212D9EB1006D99D1 /* Obj-Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEA3387212D9EB5006D99D1 /* Build configuration list for PBXNativeTarget "Obj-Clock" */;
+			buildPhases = (
+				DBEA336D212D9EB1006D99D1 /* Sources */,
+				DBEA336E212D9EB1006D99D1 /* Frameworks */,
+				DBEA336F212D9EB1006D99D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Obj-Clock";
+			productName = "Obj-Clock";
+			productReference = DBEA3371212D9EB1006D99D1 /* Obj-Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBEA338D212DA8CE006D99D1 /* Obj-ClockTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEA339E212DA8D2006D99D1 /* Build configuration list for PBXNativeTarget "Obj-ClockTV" */;
+			buildPhases = (
+				DBEA338A212DA8CE006D99D1 /* Sources */,
+				DBEA338B212DA8CE006D99D1 /* Frameworks */,
+				DBEA338C212DA8CE006D99D1 /* Resources */,
+				DBEA33B5212DAA24006D99D1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBEA33B0212DAA24006D99D1 /* PBXTargetDependency */,
+			);
+			name = "Obj-ClockTV";
+			productName = "Obj-ClockTV";
+			productReference = DBEA338E212DA8CE006D99D1 /* Obj-ClockTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBEA33A5212DAA23006D99D1 /* Obj-ClockTopShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEA33B2212DAA24006D99D1 /* Build configuration list for PBXNativeTarget "Obj-ClockTopShelf" */;
+			buildPhases = (
+				DBEA33A2212DAA23006D99D1 /* Sources */,
+				DBEA33A3212DAA23006D99D1 /* Frameworks */,
+				DBEA33A4212DAA23006D99D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Obj-ClockTopShelf";
+			productName = "Obj-ClockTopShelf";
+			productReference = DBEA33A6212DAA24006D99D1 /* Obj-ClockTopShelf.appex */;
+			productType = "com.apple.product-type.tv-app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBEA3369212D9EB1006D99D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Francisco Soares";
+				TargetAttributes = {
+					DBEA3370212D9EB1006D99D1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DBEA338D212DA8CE006D99D1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DBEA33A5212DAA23006D99D1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DBEA336C212D9EB1006D99D1 /* Build configuration list for PBXProject "Obj-Clock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBEA3368212D9EB1006D99D1;
+			productRefGroup = DBEA3372212D9EB1006D99D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBEA3370212D9EB1006D99D1 /* Obj-Clock */,
+				DBEA338D212DA8CE006D99D1 /* Obj-ClockTV */,
+				DBEA33A5212DAA23006D99D1 /* Obj-ClockTopShelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBEA336F212D9EB1006D99D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEA3381212D9EB5006D99D1 /* LaunchScreen.storyboard in Resources */,
+				DBEA337E212D9EB5006D99D1 /* Assets.xcassets in Resources */,
+				DBEA337C212D9EB1006D99D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEA338C212DA8CE006D99D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEA339A212DA8D2006D99D1 /* Assets.xcassets in Resources */,
+				DBEA3398212DA8CE006D99D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEA33A4212DAA23006D99D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBEA336D212D9EB1006D99D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEA3379212D9EB1006D99D1 /* ViewController.m in Sources */,
+				DBEA3384212D9EB5006D99D1 /* main.m in Sources */,
+				DBEA3376212D9EB1006D99D1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEA338A212DA8CE006D99D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEA33A1212DA90F006D99D1 /* ViewController.m in Sources */,
+				DBEA339D212DA8D2006D99D1 /* main.m in Sources */,
+				DBEA3392212DA8CE006D99D1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEA33A2212DAA23006D99D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEA33AD212DAA24006D99D1 /* ServiceProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBEA33B0212DAA24006D99D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBEA33A5212DAA23006D99D1 /* Obj-ClockTopShelf */;
+			targetProxy = DBEA33AF212DAA24006D99D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBEA337A212D9EB1006D99D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBEA337B212D9EB1006D99D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBEA337F212D9EB5006D99D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBEA3380212D9EB5006D99D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DBEA3396212DA8CE006D99D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBEA3397212DA8CE006D99D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBEA3385212D9EB5006D99D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBEA3386212D9EB5006D99D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBEA3388212D9EB5006D99D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AMBC8TS93;
+				INFOPLIST_FILE = "Obj-Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.fmssn.Obj-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBEA3389212D9EB5006D99D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AMBC8TS93;
+				INFOPLIST_FILE = "Obj-Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.fmssn.Obj-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBEA339F212DA8D2006D99D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AMBC8TS93;
+				INFOPLIST_FILE = "Obj-ClockTV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.fmssn.Obj-ClockTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		DBEA33A0212DA8D2006D99D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AMBC8TS93;
+				INFOPLIST_FILE = "Obj-ClockTV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.fmssn.Obj-ClockTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		DBEA33B3212DAA24006D99D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AMBC8TS93;
+				INFOPLIST_FILE = "Obj-ClockTopShelf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.fmssn.Obj-ClockTV.Obj-ClockTopShelf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		DBEA33B4212DAA24006D99D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AMBC8TS93;
+				INFOPLIST_FILE = "Obj-ClockTopShelf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.fmssn.Obj-ClockTV.Obj-ClockTopShelf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBEA336C212D9EB1006D99D1 /* Build configuration list for PBXProject "Obj-Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEA3385212D9EB5006D99D1 /* Debug */,
+				DBEA3386212D9EB5006D99D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEA3387212D9EB5006D99D1 /* Build configuration list for PBXNativeTarget "Obj-Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEA3388212D9EB5006D99D1 /* Debug */,
+				DBEA3389212D9EB5006D99D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEA339E212DA8D2006D99D1 /* Build configuration list for PBXNativeTarget "Obj-ClockTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEA339F212DA8D2006D99D1 /* Debug */,
+				DBEA33A0212DA8D2006D99D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEA33B2212DAA24006D99D1 /* Build configuration list for PBXNativeTarget "Obj-ClockTopShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEA33B3212DAA24006D99D1 /* Debug */,
+				DBEA33B4212DAA24006D99D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBEA3369212D9EB1006D99D1 /* Project object */;
+}
